@@ -1,0 +1,21 @@
+{
+  "name": "standup-order",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "firebase deploy --only hosting:warewolfgame",
+    "build": "parcel build src/index.html --out-dir build/",
+    "dev": "parcel serve src/index.html --out-dir build/"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.9",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/seedrandom": "^2.4.28",
+    "page": "^1.11.6",
+    "seedrandom": "^3.0.5"
+  }
+}
