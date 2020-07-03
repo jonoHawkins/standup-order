@@ -15,7 +15,6 @@ export default class OrderPage extends View<OrderPageProps> {
             date.getFullYear(),
             date.getMonth(),
             date.getDay(),
-            ...names,
         ].join('');
 
         const rng = seedrandom(seed);
