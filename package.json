@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "firebase deploy --only hosting:warewolfgame",
     "build": "parcel build src/index.html --out-dir build/",
     "dev": "parcel serve src/index.html --out-dir build/"
   },
