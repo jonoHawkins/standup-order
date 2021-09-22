@@ -17,7 +17,7 @@ export default class OrderPage extends View<OrderPageProps> {
             date.getDay(),
         ].join('');
 
-        const rng = seedrandom(seed);
+        const rng = seedrandom(seedrandom(seed)());
         const sorted = [];
 
         for (const name of freshClone) {
